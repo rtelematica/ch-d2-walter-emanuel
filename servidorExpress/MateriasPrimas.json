@@ -1,0 +1,34 @@
+[
+    {   
+        "nombre": "Lignosulfonato De Sodio",
+        "cod": 1,
+        "lote": "234-s",
+        "stock": 2347
+    },
+
+    {
+        "nombre": "EuroArom", 
+        "cod": 2, 
+        "lote": "234-s", 
+        "stock": 234 
+    },
+    { 
+        "nombre": "Carbonato de Calcio",
+        "cod": 3,
+        "lote": "234-s", 
+        "stock": 247 
+    },
+    { 
+        "nombre": "AmidexDextrina", 
+        "cod": 4, 
+        "lote": "234-s", 
+        "stock": 347 
+    },
+    { 
+        "nombre": "Mycofi Plus 5.0", 
+        "cod": 5, 
+        "lote": "234-s",
+        "stock": 25347 
+    }
+
+]
