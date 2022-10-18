@@ -14,12 +14,16 @@ app.get("/materiasprimas",async (req, res)=>{
     
     const materiasPrimas = await contenedor.obtenerMp()
     
-    res.send(JSON.stringify(await materiasPrimas, null,2));
+    // esta podria ser una forma de mandar el arreglo de objetos
+    // tambien es posible utilizar res.json(materiasPrimas);
+    // te pido experimentes con ambas y veas la diferencia desde Postman
+    // en como la informacion se devuelve y se interpreta.
+    res.json({products: materiasPrimas});
 })
 
 app.get("/materiaprimaramdom",async (req, res)=>{
     
-    const materiasPrimas = await contenedor.obtenerRamdom()
+    const materiasPrimas = await contenedor.obtenerRamdom() //la funcion obtenerRamdom no EXISTE, FAVOR DE CORREGIR!!
     
     res.send(JSON.stringify(await materiasPrimas, null,2));
 })
